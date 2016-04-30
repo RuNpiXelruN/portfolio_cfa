@@ -1,0 +1,5 @@
+<%= form_for @contact do |f| %>
+    <p>Hi, my name is <%= f.text_field :name %> </p>
+    <p>and i'd to enquire about <%= f.text_field :comment %> </p>
+    <p>Please email me at <%= f.text_field :email %> </p><%= f.submit "POW" %>
+<% end %>
