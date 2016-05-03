@@ -5,6 +5,7 @@
     width: 100%;
     height: 100vh;
     z-index: 2;
+    border-top: 0.3vw solid #767291;
     
     .contact-section {
         position: relative;
@@ -14,7 +15,6 @@
             top: 24vw;
             left: 47vw;
         }
-        
         #nav-up {
             position: absolute;
             left: 47vw;
@@ -25,6 +25,105 @@
             &:hover {
                 transform: rotate(-540deg);
             }
+        }
+        
+        #dark-1, #dark-2, #dark-3, #dark-4, #dark-5, #dark-6, #dark-7, #dark-8, #dark-9, #dark-10, #dark-11, #dark-12  {
+            position: absolute;
+            opacity: 0;
+            height: 6vw;
+            width: 9vw;
+            
+            #eyes {
+                height: 1vw;
+                position: absolute;
+            }
+        }
+        #dark-1 {
+            left: 82vw;
+            top: 23vw;
+            
+            #eyes {
+                height: 1vw;
+            }
+            #mouth {
+                top: 3vw;
+                left: 1vw;
+            }
+        }
+        #dark-2 {
+            top: 13vw;
+            left: 9vw;
+            transform: rotate(-15deg);
+        }
+        #dark-3 {
+            top: 4vw;
+            left: 70vw;
+            transform: rotate(10deg);
+        }
+        #dark-4 {
+            top: 16vw;
+            left: 30vw;
+            transform: rotate(-6deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-5 {
+            top: 25vw;
+            left: 12vw;
+            transform: rotate(-5deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-6 {
+            top: 27vw;
+            left: 45vw;
+        }
+        #dark-7 {
+            top: 6vw;
+            left: 90vw;
+            transform: rotate(15deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-8 {
+            left: 33vw;
+            top: 5vw;
+            transform: rotate(-5deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-9 {
+            left: 80vw;
+            top: 14vw;
+            transform: rotate(15deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-10 {
+            left: 16vw;
+            top: 4vw;
+            transform: rotate(10deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-11 {
+            left: 67vw;
+            top: 26vw;
+            transform: rotate(-15deg);
+            #eyes {
+                height: 0.5vw;
+            }
+        }
+        #dark-12 {
+            top: 25vw;
+            left: 25vw;
+            transform: rotate(15deg);
         }
     }
 }

@@ -1,0 +1,56 @@
+.new_contact {
+    .name-pg {
+        position: absolute;
+        left: 34vw;
+        top: 9vw;
+        transform: scale(1.5);
+        color: white;
+        
+        #contact_name {
+            background: black;
+            border: none;
+            border-bottom: 0.1vw solid #767291;
+            padding-left: 1vw;
+        }
+    }
+    .comment-pg {
+        position: absolute;
+        left: 39vw;
+        top: 14.2vw;
+        transform: scale(1.5);
+        color: white;
+        
+        #contact_comment {
+            background: black;
+            border: none;
+            border-bottom: 0.1vw solid #767291;
+            height: 2vw;
+            position: absolute;
+            top: -0.3vw;
+            color: white;
+            padding-left: 1vw;
+        }
+    }
+    .email-pg {
+        position: absolute;
+        left: 34vw;
+        top: 19vw;
+        transform: scale(1.5);
+        color: white;
+        
+        #contact_email {
+            background: black;
+            border: none;
+            border-bottom: 0.1vw solid #767291;
+            padding-left: 1vw;
+        }
+    }
+    .submit-button {
+        position: absolute;
+        top: 18vw;
+        left: 60vw;
+        width: 8vw;
+        height: 3vw;
+        background-color: dodgerblue;
+    }
+}

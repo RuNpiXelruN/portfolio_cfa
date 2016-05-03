@@ -1,0 +1,6 @@
+<%= form_for Contact.new do |f| %>
+    <p class="name-pg">Hi my name is <%= f.text_field :name, class: "name-field" %></p>
+    <p class="comment-pg">and I'm interested in <%= f.text_area :comment, class: "comment-field" %>.</p>
+    <p class="email-pg">Please email me at <%= f.text_field :email %></p>
+    <%= f.submit "SEND", class: "submit-button" %>
+<% end %>
