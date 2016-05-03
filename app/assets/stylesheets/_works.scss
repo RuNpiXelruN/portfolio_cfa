@@ -1,0 +1,18 @@
+.works-wrapper {
+    z-index: 99;
+    position: fixed;
+    height: 100vh;
+    top: -100%;
+    width: 100%;
+    
+    .works-section {
+        height: inherit;
+        position: relative;
+        background: linear-gradient(to right, #304352, #d7d2cc);
+        border-bottom: 0.7vw solid black;
+        
+        .works-body {
+            height: 100vh;
+        }
+    }
+}
