@@ -1,22 +1,22 @@
 
 <!-------------------- Home Page --------------------> 
 
-<div class="home-wrapper">
+<div class="home-wrapper"  id="top">
     <div class="hero-section">
         <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
         <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
         <h1 id="hero-text">web-dev / superhero</h1>
         <img id="batman-computer" src="<%= asset_path('batman-computer.png') %>">
         <img id="nav-right" src="<%= asset_path('arrow-blue.png') %>">
-        <nav class="navbar-bottom">
-            <ul class="nav-buttons">
-                <a class="nav-item" href="#"><li>About</li></a>
-                <a class="nav-item" href="#"><li>Contact</li></a>
-                <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
-            </ul>
-        </nav>
     </div>
 </div>
+<nav class="navbar-bottom">
+    <ul class="nav-buttons">
+        <a class="nav-item-1" href="#"><li>About</li></a>
+        <a class="nav-item-2" href="#"><li>Contact</li></a>
+        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
+    </ul>
+</nav>
 
 <!-------------------- About Page --------------------> 
 
@@ -27,12 +27,22 @@
         <!--<h1 id="hero-text">web-dev / superhero</h1>-->
         <img id="batman-lounge" src="<%= asset_path('Batman Lounge.png') %>">
         <img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">
-        <nav class="navbar-bottom">
-            <ul class="nav-buttons">
-                <a class="nav-item" href="#"><li>About</li></a>
-                <a class="nav-item" href="#"><li>Contact</li></a>
-                <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
-            </ul>
-        </nav>
+    </div>
+</div>
+<!--<nav class="navbar-bottom">-->
+<!--    <ul class="nav-buttons">-->
+<!--        <a class="nav-item" href="#"><li>Home</li></a>-->
+<!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
+<!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
+<!--    </ul>-->
+<!--</nav>-->
+
+
+<!-------------------- Contact Page -------------------->
+
+<div class="contact-wrapper">
+    <div class="contact-section">
+        <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
+        <%= render partial: 'contacts/partials/form' %>
     </div>
 </div>

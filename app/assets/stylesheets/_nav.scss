@@ -1,0 +1,50 @@
+.navbar-bottom {
+    position: fixed;
+    background: black;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    height: 6vw;
+    border-top: 0.3vw solid #767291;
+    
+    .nav-buttons {
+        position: relative;
+        padding: 0;
+        
+        .nav-item-1 {
+            position: absolute;
+            left: 8vw;
+            font-family: 'goldsaber';
+            font-size: 2vw;
+            list-style-type: none;
+            top: 1.3vw;
+            color: #6C6F8E;
+        }
+        
+        .nav-item-2 {
+            position: absolute;
+            left: 20vw;
+            font-family: 'goldsaber';
+            font-size: 2vw;
+            list-style-type: none;
+            top: 1.3vw;
+            color: #6C6F8E;
+        }
+        
+        #nav-down {
+            position: absolute;
+            left: 47vw;
+            transform: rotate(180deg);
+            transition: all 0.5s ease;
+            top: 0vw;
+            height: 6vw;
+            opacity: 1;
+            visibility: visible;
+            
+            &:hover {
+                transform: rotate(720deg);
+            }
+        }
+    }
+}

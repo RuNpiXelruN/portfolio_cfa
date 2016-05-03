@@ -2,72 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .home-wrapper {
     position: fixed;
     width: 100%;
     left: 0;
+    background: black;
 
     .hero-section {
         background: url('Background.png');
         background-size: 100% 100%;
         height: 100vh;
         position: relative;
-        
-        .navbar-bottom {
-            background: black;
-            height: 6vw;
-            bottom: 0vw;
-            width: 100vw;
-            position: absolute;
-            
-            .nav-buttons {
-                height: inherit;
-                padding-left: 6.5vw;
-                list-style: none;
-                display: inline-flex;
-                font-size: 2vw;
-                font-family: 'goldsaber';
-                
-                a.nav-item {
-                    list-style: none;
-                    padding: 1.5vw;
-                    margin-right: 2vw;
-                    text-decoration: none;
-                    cursor: pointer;
-                    color: white;
-                    
-                    &:hover li {
-                        color: #B35464;
-                        transition: color 0.3s ease;
-                    }
-                    
-                    li {
-                        color: #393748;
-                    }
-                }
-            }
-            #nav-down {
-                position: absolute;
-                left: 48vw;
-                top: 0.5vw;
-                transform: rotate(180deg);
-                height: 5vw;
-                // margin-left: 15vw;
-                // margin-top: 0.5vw;
-                opacity: 0.6;
-            }
-        }
-        
+      
         #hoot-logo {
             position: absolute;
             height: 15vw;
-            top: 15vw;
+            bottom: 24vw;
             left: 8vw;
         }
         
         #hoot-cross {
             position: absolute;
-            top: 16.3vw;
+            bottom: 33.2vw;
             left: 23.7vw;
             height: 4.5vw;
         }
@@ -76,7 +33,7 @@
             position: absolute;
             font-family: 'goldsaber';
             color: #a69696;
-            top: 29vw;
+            bottom: 20vw;
             left: 8vw;
             font-size: 2.5vw;
             letter-spacing: 0.2vw;
@@ -88,14 +45,79 @@
             right: 6vw;
             bottom: 5vw;
         }
-        
-        #nav-right {
-            position: absolute;
-            transform: rotate(90deg);
-            height: 5vw;
-            right: 5vw;
-            top: 5vw;
-            opacity: 0.7;
-        }
     }
+}
+
+#nav-right {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: center right;
+    height: 5vw;
+    right: 7vw;
+    top: 7vw;
+    opacity: 0.7;
+}
+
+#nav-right:hover {
+    cursor: pointer;
+    animation: anti-wiggle 1s ease-in-out;
+}
+
+#nav-right:hover:after {
+    animation: wiggle 1s ease-in-out;
+}
+  
+//   &:focus, &:active {
+//     outline: 0;
+//   }
+
+
+
+@keyframes wiggle {
+  20% {
+    // box-shadow:  inset -5px 0 5px 0 rgba(0,0,0,.4);
+    transform: rotate(97deg);
+  }
+  
+  40% {
+    // box-shadow:  inset -11px 0 5px 0 rgba(0,0,0,.4);
+    transform: rotate(74deg);
+  }
+  
+  60% {
+    // box-shadow:  inset -5px 0 5px 0 rgba(0,0,0,.4);
+    transform: rotate(94deg);
+  }
+  
+  80% {
+    // box-shadow:  inset -8px 0 5px 0 rgba(0,0,0,.4);
+    transform: rotate(88deg);
+  }
+  
+  100% {
+    // box-shadow:  inset -7px 0 5px 0 rgba(0,0,0,.4);
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes anti-wiggle {
+  20% {
+    transform: translateX(4px) rotate(83deg);
+  }
+  
+  40% {
+    transform: translateX(-8px)  rotate(104deg);
+  }
+  
+  60% {
+    transform: translateX(2px)  rotate(86deg);
+  }
+  
+  80% {
+    transform: translateX(-1px)  rotate(92deg);
+  }
+  
+  100% {
+    transform: translateX(0px) rotate(90deg);
+  }
 }
