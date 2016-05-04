@@ -131,17 +131,27 @@
 </div>
 
 <div id="hoot-mobile">
+    
+    <!--    first scroll section/hero     -->
 	<div class="scrolling-bg scroll-bg-1">
 		<div class="scroll-1-container">
+		    <h1 id="slideout-nav">| | |</h1>
+		    <div id="slide-nav-contents">
+		        <ul id="nav-ul">
+		            <li id="nav-aboutme">About Me</li>
+		            <li id="nav-works">Works</li>
+		            <li id="nav-contact">Contact</li>
+		        </ul>
+		    </div>
             <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
             <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
             <h1 id="hero-text">web-dev / superhero</h1>    
 		</div> 
-	</div>     
-    
-	<div class="fixed-bg fixed-bg-1">
 	</div> 
-	
+	<!-------------------------------------->
+    
+	<!--  first fixed bg with eyes        -->
+	<div class="fixed-bg fixed-bg-1"></div> 
 	<div class="eyes-bg">
         <div id="dark-1-mob" class="animate-flicker-1">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
@@ -180,13 +190,37 @@
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
 	</div>
+	<!-------------------------------------->
  
+    
+    
+    <!--    second scroll section         --> 
 	<div class="scrolling-bg scroll-bg-2">
 		<div class="scroll-2-container">
-            <h1>This is the scroll 2 foreground</h1>
+            <h1>What I do</h1>
 		</div> 
 	</div>
+    <!-------------------------------------->
+    
+    <!--    second fixed bg on lounge     -->
+	<div class="fixed-bg fixed-bg-2"></div>
+	<!-------------------------------------->
 	
-	<div class="fixed-bg fixed-bg-2">
+
+
+    <!--    third scroll section         --> 
+	<div class="scrolling-bg scroll-bg-2">
+		<div class="scroll-2-container">
+            <h1>What I've done</h1>
+		</div> 
+	</div>
+	<!-------------------------------------->
+	
+	<div class="fixed-bg fixed-bg-3"></div>
+	
+	<div class="scrolling-bg scroll-bg-2">
+		<div class="scroll-2-container">
+            <h1>I'd love to chat more! Send me an email!</h1>
+		</div> 
 	</div>
 </div>
