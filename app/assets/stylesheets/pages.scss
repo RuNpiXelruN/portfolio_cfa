@@ -47,7 +47,6 @@
         }
     }
 }
-
 #nav-right {
     position: absolute;
     transform: rotate(90deg);
@@ -57,22 +56,13 @@
     top: 7vw;
     opacity: 0.7;
 }
-
 #nav-right:hover {
     cursor: pointer;
     animation: anti-wiggle 1s ease-in-out;
 }
-
 #nav-right:hover:after {
     animation: wiggle 1s ease-in-out;
 }
-  
-//   &:focus, &:active {
-//     outline: 0;
-//   }
-
-
-
 @keyframes wiggle {
   20% {
     // box-shadow:  inset -5px 0 5px 0 rgba(0,0,0,.4);
@@ -99,7 +89,6 @@
     transform: rotate(90deg);
   }
 }
-
 @keyframes anti-wiggle {
   20% {
     transform: translateX(4px) rotate(83deg);

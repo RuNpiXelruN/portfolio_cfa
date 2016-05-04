@@ -1,0 +1,327 @@
+//  Parallax CSS
+ 
+// .cd-fixed-bg {
+// 	min-height: 100%;
+// 	background-size: cover;
+// 	background-attachment: fixed;
+// 	background-repeat: no-repeat;
+// 	background-position: center center;
+// }
+ 
+// .cd-fixed-bg.cd-bg-1 {
+//   background-image: url("Background.png");
+// }
+// .cd-fixed-bg.cd-bg-2 {
+//   background-image: url("batman-computer.png");
+// }
+// .cd-fixed-bg.cd-bg-3 {
+//   background-image: url("../img/cd-background-3.jpg");
+// }
+// .cd-fixed-bg.cd-bg-4 {
+//   background-image: url("../img/cd-background-4.jpg");
+// }
+ 
+// .cd-scrolling-bg {
+// 	min-height: 100%;
+// }
+
+
+//  End Parallax CSS
+
+.fixed-bg {
+	min-height: 60%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.fixed-bg-1 {
+  background-image: url("black-bg.png");
+  min-height: 33%;
+  position: relative;
+  z-index: -2;
+}
+.eyes-bg {
+    position: fixed;
+    height: 28vh;
+    width: 100%;
+    color: white;
+    top: 48vh;
+    left: 0;
+    z-index: -1;
+}
+
+.fixed-bg-2 {
+  background-image: url("batman-computer.png");
+}
+
+.scroll-bg-1 {
+    height: 90vh;
+    color: white;
+    background: linear-gradient(to bottom, #304352, #d7d2cc);
+    border-bottom: 1vw solid #304352;
+    
+    .scroll-1-container {
+        position: relative;
+        width: 100%;
+        height: inherit;
+        
+        #hoot-logo {
+            position: absolute;
+            bottom: 51vw;
+            height: 31vw;
+            left: 6vw;
+        }
+        #hoot-cross {
+            position: absolute;
+            bottom: 70vw;
+            left: 38.5vw;
+            height: 9vw;
+        }
+        #hero-text {
+            position: absolute;
+            bottom: 43vw;
+            left: 5vw;
+            font-size: 5.5vw;
+            color: #030303;
+            text-transform: uppercase;
+            font-family: 'goldsaber';
+        }
+    }
+}
+.scroll-bg-2 {
+    height: 50vh;
+    color: white;
+    background: blue;
+}
+// #dark-1, #dark-2, #dark-3, #dark-4, #dark-5, #dark-6, #dark-7, #dark-8, #dark-9, #dark-10, #dark-11, #dark-12  {
+//     position: absolute;
+//     opacity: 0;
+//     height: 6vw;
+//     width: 9vw;
+    
+//     #eyes {
+//         height: 1vw;
+//         position: absolute;
+//     }
+// }
+
+.eyes-bg {
+    position: fixed;
+    height: 90vh;
+    width: 100%;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    #dark-1-mob {
+        left: 75vw;
+        top: 78vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+            transform: rotate(10deg);
+        }
+    }
+    #dark-2-mob {
+        left: 10vw;
+        top: 70vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 3vw;
+            transform: rotate(-15deg);
+        }
+    }
+    #dark-3-mob {
+        left: 58vw;
+        top: 64vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+            transform: rotate(5deg);
+        }
+    }
+    #dark-4-mob {
+        left: 18vw;
+        top: 53vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 1vw;
+        }
+    }
+    #dark-5-mob {
+        left: 47vh;
+        top: 53vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 1vw;
+            transform: rotate(5deg);
+        }
+    }
+    #dark-6-mob {
+        left: 45vw;
+        top: 43vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+            transform: rotate(5deg);
+        }
+    }
+    #dark-7-mob {
+        left: 8vw;
+        top: 31vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+        }
+    }
+    #dark-8-mob {
+        left: 74vw;
+        top: 21vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 1vw;
+        }
+    }
+    #dark-9-mob {
+        left: 34vw;
+        top: 19vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 1vw;
+            transform: rotate(-5deg);
+        }
+    }
+    #dark-10-mob {
+        left: 80vw;
+        top: 9vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+            transform: rotate(10deg);
+        }
+    }
+    #dark-11-mob {
+        left: 11vw;
+        top: 16vw;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 2vw;
+            transform: rotate(-15deg);
+        }
+    }
+    #dark-12-mob {
+        left: 70vw;
+        top: 32vh;
+        opacity: 1;
+        position: absolute;
+        height: 6vw;
+        width: 9vw;
+        
+        #eyes {
+            height: 4vw;
+            transform: rotate(10deg);
+        }
+    }
+}
+
+
+@keyframes flickerAnimation {
+  0%   { opacity:0; }
+  15%  { opacity:1; }
+  25% { opacity:0; }
+  100% { opacity:0; }
+}
+
+.animate-flicker-1 {
+    animation: flickerAnimation 12s infinite;
+}
+.animate-flicker-2 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 4s;
+}
+.animate-flicker-3 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 6s;
+}
+.animate-flicker-4 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 9s;
+}
+.animate-flicker-5 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 10s;
+}
+.animate-flicker-6 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 2s;
+}
+.animate-flicker-7 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 5s;
+}
+.animate-flicker-8 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 3s;
+}
+.animate-flicker-9 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 4s;
+}
+.animate-flicker-10 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 6s;
+}
+.animate-flicker-11 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 9s;
+}
+.animate-flicker-12 {
+    animation: flickerAnimation 12s infinite;
+    animation-delay: 10s;
+}

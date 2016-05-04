@@ -1,96 +1,192 @@
-
-<!-------------------- Home Page --------------------> 
-
-
-<div class="home-wrapper"  id="top">
-    <div class="hero-section">
-        <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
-        <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
-        <h1 id="hero-text">web-dev / superhero</h1>
-        <img id="batman-computer" src="<%= asset_path('batman-computer.png') %>">
-        <img id="nav-right" src="<%= asset_path('arrow-blue.png') %>">
+<div id="hoot-desktop">
+    <!-------------------- Home Page --------------------> 
+    <div class="home-wrapper"  id="top">
+        <div class="hero-section">
+            <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
+            <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
+            <h1 id="hero-text">web-dev / superhero</h1>
+            <img id="batman-computer" src="<%= asset_path('batman-computer.png') %>">
+            <img id="nav-right" src="<%= asset_path('arrow-blue.png') %>">
+        </div>
+    </div>
+    <nav class="navbar-bottom">
+        <ul class="nav-buttons">
+            <a class="nav-item-1" href="#"><li>About</li></a>
+            <a class="nav-item-2" href="#"><li>Contact</li></a>
+            <a class="nav-item-3" href="#"><li>Work</li></a>
+            <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
+        </ul>
+    </nav>
+    
+    <!-------------------- About Page --------------------> 
+    <div class="about-wrapper">
+        <div class="about-hero-section">
+            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
+            <!--<h1 id="hero-text">web-dev / superhero</h1>-->
+            <img id="batman-lounge" src="<%= asset_path('Batman Lounge.png') %>">
+            <img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">
+        </div>
+    </div>
+    <!--<nav class="navbar-bottom">-->
+    <!--    <ul class="nav-buttons">-->
+    <!--        <a class="nav-item" href="#"><li>Home</li></a>-->
+    <!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
+    <!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
+    <!--    </ul>-->
+    <!--</nav>-->
+    
+    
+    <!-------------------- Works Page -------------------->
+    <div class="works-wrapper">
+        <div class="works-section">
+            <div class="works-body">
+                <img id="nav-home" src="<%= asset_path('arrow-blue.png') %>">
+                <h2>Past work</h2>
+                <div class="work-examples">
+                    <div id="work-example-1">
+                        <div class="work-overlay">
+                            <p class="work-company">Hoot & Holla</p>
+                            <p class="work-description">Full website build</p>
+                        </div>
+                        <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">
+                    </div>
+                    <!--<div id="work-example-2">-->
+                    <!--    <div class="work-overlay">-->
+                    <!--        <p class="work-company">Hoot & Holla</p>-->
+                    <!--        <p class="work-description">Full website build</p>-->
+                    <!--    </div>-->
+                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+                    <!--</div>-->
+                    <!--<div id="work-example-3">-->
+                    <!--    <div class="work-overlay">-->
+                    <!--        <p class="work-company">Hoot & Holla</p>-->
+                    <!--        <p class="work-description">Full website build</p>-->
+                    <!--    </div>-->
+                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+                    <!--</div>-->
+                    <!--<div id="work-example-4">-->
+                    <!--    <div class="work-overlay">-->
+                    <!--        <p class="work-company">Hoot & Holla</p>-->
+                    <!--        <p class="work-description">Full website build</p>-->
+                    <!--    </div>-->
+                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<nav class="navbar-bottom">-->
+    <!--    <ul class="nav-buttons">-->
+    <!--        <a class="nav-item" href="#"><li>Home</li></a>-->
+    <!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
+    <!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
+    <!--    </ul>-->
+    <!--</nav>-->
+    
+    
+    <!-------------------- Contact Page -------------------->
+    <div class="contact-wrapper">
+        <div class="contact-section">
+            <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
+            <%= render 'contacts/form' %>
+            <div id="dark-1">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-2">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-3">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-4">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-5">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-6">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-7">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-8">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-9">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-10">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-11">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+            <div id="dark-12">
+                <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+            </div>
+        </div>
     </div>
 </div>
-<nav class="navbar-bottom">
-    <ul class="nav-buttons">
-        <a class="nav-item-1" href="#"><li>About</li></a>
-        <a class="nav-item-2" href="#"><li>Contact</li></a>
-        <a class="nav-item-3" href="#"><li>Work</li></a>
-        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
-    </ul>
-</nav>
 
-<!-------------------- About Page --------------------> 
-
-<div class="about-wrapper">
-    <div class="about-hero-section">
-        <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-        <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
-        <!--<h1 id="hero-text">web-dev / superhero</h1>-->
-        <img id="batman-lounge" src="<%= asset_path('Batman Lounge.png') %>">
-        <img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">
-    </div>
-</div>
-<!--<nav class="navbar-bottom">-->
-<!--    <ul class="nav-buttons">-->
-<!--        <a class="nav-item" href="#"><li>Home</li></a>-->
-<!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
-<!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
-<!--    </ul>-->
-<!--</nav>-->
-
-
-<!-------------------- Works Page -------------------->
-<div class="works-wrapper">
-    <div class="works-section">
-        <div class="works-body">
-            <img id="nav-home" src="<%= asset_path('arrow-blue.png') %>">
-        </div>
-    </div>
-</div>
-
-
-<!-------------------- Contact Page -------------------->
-
-<div class="contact-wrapper">
-    <div class="contact-section">
-        <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
-        <%= render 'contacts/form' %>
-        <div id="dark-1">
+<div id="hoot-mobile">
+	<div class="scrolling-bg scroll-bg-1">
+		<div class="scroll-1-container">
+            <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
+            <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
+            <h1 id="hero-text">web-dev / superhero</h1>    
+		</div> 
+	</div>     
+    
+	<div class="fixed-bg fixed-bg-1">
+	</div> 
+	
+	<div class="eyes-bg">
+        <div id="dark-1-mob" class="animate-flicker-1">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-2">
+        <div id="dark-2-mob" class="animate-flicker-2">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-3">
+        <div id="dark-3-mob" class="animate-flicker-3">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-4">
+        <div id="dark-4-mob" class="animate-flicker-4">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-5">
+        <div id="dark-5-mob" class="animate-flicker-5">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-6">
+        <div id="dark-6-mob" class="animate-flicker-6">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-7">
+        <div id="dark-7-mob" class="animate-flicker-7">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-8">
+        <div id="dark-8-mob" class="animate-flicker-8">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-9">
+        <div id="dark-9-mob" class="animate-flicker-9">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-10">
+        <div id="dark-10-mob" class="animate-flicker-10">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-11">
+        <div id="dark-11-mob" class="animate-flicker-11">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-        <div id="dark-12">
+        <div id="dark-12-mob" class="animate-flicker-12">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
-    </div>
+	</div>
+ 
+	<div class="scrolling-bg scroll-bg-2">
+		<div class="scroll-2-container">
+            <h1>This is the scroll 2 foreground</h1>
+		</div> 
+	</div>
+	
+	<div class="fixed-bg fixed-bg-2">
+	</div>
 </div>
