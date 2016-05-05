@@ -135,22 +135,26 @@
     <!--    first scroll section/hero     -->
 	<div class="scrolling-bg scroll-bg-1">
 		<div class="scroll-1-container">
-		    <h1 id="slideout-nav">| | |</h1>
+		    <i class="fa fa-bars" aria-hidden="true"></i>
+		    <a id="nav-button-wrapper"></a>
+		    <div id="nav-icon-wrapper"></div>
+		    
 		    <div id="slide-nav-contents">
 		        <ul id="nav-ul">
-		            <li id="nav-aboutme">About Me</li>
-		            <li id="nav-works">Works</li>
-		            <li id="nav-contact">Contact</li>
+		            <li id="nav-aboutme" class="nav-links">About Me</li>
+		            <li id="nav-works" class="nav-links">Works</li>
+		            <li id="nav-contact" class="nav-links">Contact</li>
 		        </ul>
 		    </div>
             <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
             <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
             <h1 id="hero-text">web-dev / superhero</h1>    
+            <img id="batman-comp-mob" src="<%= asset_path('batman-computer.png') %>">
 		</div> 
 	</div> 
 	<!-------------------------------------->
     
-	<!--  first fixed bg with eyes        -->
+	
 	<div class="fixed-bg fixed-bg-1"></div> 
 	<div class="eyes-bg">
         <div id="dark-1-mob" class="animate-flicker-1">
@@ -190,37 +194,87 @@
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
 	</div>
-	<!-------------------------------------->
- 
-    
-    
-    <!--    second scroll section         --> 
-	<div class="scrolling-bg scroll-bg-2">
-		<div class="scroll-2-container">
-            <h1>What I do</h1>
-		</div> 
-	</div>
-    <!-------------------------------------->
-    
-    <!--    second fixed bg on lounge     -->
-	<div class="fixed-bg fixed-bg-2"></div>
-	<!-------------------------------------->
 	
+	<div class="scrolling-bg scroll-bg-2">
+        <h1 id="what-do-header">What I do</h1>
+	</div>
+	<div class="skills-section-mob">
+	    <div class="skills-wrapper">
+	        <div class="skills-1">
+    	        <img id="skill-idea" src="<%= asset_path('good-idea_38.svg') %>">
+    	        <div id="light-1">
+    	            <p>Initial Concept and Wireframing</p>
+    	        </div>
+	        </div>
+	        <div class="skills-2">
+    	        <img id="skill-build" src="<%= asset_path('good-idea_26.svg') %>">
+    	        <div id="light-2">
+    	            <p>Ruby on Rails back-end development and framework</p>
+    	        </div>
+	        </div>
+	        <div class="skills-3">
+    	        <img  id="skill-complete"src="<%= asset_path('good-idea_19.svg') %>">
+    	        <div id="light-3">
+    	            <p>Ruby on Rails back-end development and framework</p>
+    	        </div>
+	        </div>
+	    </div>
+	</div>
 
-
-    <!--    third scroll section         --> 
-	<div class="scrolling-bg scroll-bg-2">
-		<div class="scroll-2-container">
-            <h1>What I've done</h1>
-		</div> 
+    <div class="fixed-bg fixed-bg-2"></div> 
+	<div class="eyes-bg">
+        <div id="dark-1-mob" class="animate-flicker-1">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-2-mob" class="animate-flicker-2">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-3-mob" class="animate-flicker-3">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-4-mob" class="animate-flicker-4">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-5-mob" class="animate-flicker-5">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-6-mob" class="animate-flicker-6">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-7-mob" class="animate-flicker-7">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-8-mob" class="animate-flicker-8">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-9-mob" class="animate-flicker-9">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-10-mob" class="animate-flicker-10">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-11-mob" class="animate-flicker-11">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
+        <div id="dark-12-mob" class="animate-flicker-12">
+            <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
+        </div>
 	</div>
-	<!-------------------------------------->
 	
-	<div class="fixed-bg fixed-bg-3"></div>
-	
-	<div class="scrolling-bg scroll-bg-2">
-		<div class="scroll-2-container">
-            <h1>I'd love to chat more! Send me an email!</h1>
-		</div> 
+	<div class="scrolling-bg scroll-bg-3">
+        <h1 id="what-done-header">What I've done</h1>
 	</div>
+	<div class="works-section-mob">
+	    <div class="works-wrapper-mob">
+	        <div id="works-1">
+	            <img id="client-1-logo" src="<%= asset_path('Social_Playground_logo_Circle.png') %>">
+	            <p id="client-1-mob-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ut odio nesciunt earum</p>
+	        </div>
+	        <div id="works-2">
+	            <img id="client-2-logo" src="http://cdn.shopify.com/s/files/1/0876/0596/t/6/assets/logo.png?8575884855795847578" >
+	            <p id="client-2-mob-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, ut odio nesciunt earum</p>
+	        </div>
+	    </div>
+	</div>
+	
 </div>

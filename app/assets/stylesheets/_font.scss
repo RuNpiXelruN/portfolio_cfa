@@ -1,4 +1,17 @@
 @font-face {
-    font-family: 'goldsaber';
-    src: url('fonts/goldsaber.ttf') format('truetype');
+    font-family: 'opensans_bold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg') format('svg');
+
+}
+
+@font-face {
+    font-family: 'opensans_light';
+    src: url('OpenSans-Light-webfont.eot');
+    src: url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype'),
+         url('OpenSans-Light-webfont.svg') format('svg');
+
 }

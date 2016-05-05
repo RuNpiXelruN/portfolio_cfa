@@ -1,35 +1,6 @@
-//  Parallax CSS
- 
-// .cd-fixed-bg {
-// 	min-height: 100%;
-// 	background-size: cover;
-// 	background-attachment: fixed;
-// 	background-repeat: no-repeat;
-// 	background-position: center center;
-// }
- 
-// .cd-fixed-bg.cd-bg-1 {
-//   background-image: url("Background.png");
-// }
-// .cd-fixed-bg.cd-bg-2 {
-//   background-image: url("batman-computer.png");
-// }
-// .cd-fixed-bg.cd-bg-3 {
-//   background-image: url("../img/cd-background-3.jpg");
-// }
-// .cd-fixed-bg.cd-bg-4 {
-//   background-image: url("../img/cd-background-4.jpg");
-// }
- 
-// .cd-scrolling-bg {
-// 	min-height: 100%;
-// }
-
-
-//  End Parallax CSS
 
 .fixed-bg {
-	min-height: 60%;
+	min-height: 50%;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -37,22 +8,19 @@
 }
 .fixed-bg-1 {
   background-image: url("black-bg.png");
-  min-height: 33%;
+  min-height: 27%;
   position: relative;
   z-index: -2;
 }
-// .eyes-bg {
-//     position: fixed;
-//     height: 28vh;
-//     width: 100%;
-//     color: white;
-//     top: 48vh;
-//     left: 0;
-//     z-index: -1;
-// }
+.fixed-bg-2 {
+    background-image: url("black-bg.png");
+    min-height: 27%;
+    position: relative;
+    z-index: -2;
+}
 .eyes-bg {
     position: fixed;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     color: white;
     top: 0;
@@ -214,16 +182,60 @@
     }
 }
 
-.fixed-bg-2 {
-  background-image: url("batman-lounge-logo.png");
-  min-height: 33%;
+.scroll-1-container {
+    
+    i.fa.fa-bars {
+        position: fixed;
+        right: 7vw;
+        top: 7vw;
+        font-size: 10vw;
+        z-index: 99;
+    }
+    
+    a#nav-button-wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 26vw;
+        width: 25vw;
+        z-index: 9999;
+    }
+    
+    #nav-icon-wrapper {
+        position: fixed;
+        background: black;
+        height: 80vw;
+        width: 80vw;
+        transform: rotate(45deg);
+        left: 61vw;
+        top: -51vw;
+        z-index: 90;
+    }
+    
 }
+#slide-nav-contents {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 80vh;
+    display: none;
+    width: 100vw;
+    z-index: 98;
+    border-radius: 1vw;
+    box-shadow: -1vw 1vw 4vw 0vw rgba(0, 0, 0, 0.5);
+    
+    #nav-ul {
+        position: absolute;
+        top: 5vh;
+    }
+}
+
 
 .scroll-bg-1 {
     height: 90vh;
     color: white;
-    background: linear-gradient(to bottom, #304352, #d7d2cc);
-    border-bottom: 1vw solid #304352;
+    background: #77A8CC;
     
     .scroll-1-container {
         position: relative;
@@ -251,39 +263,183 @@
             text-transform: uppercase;
             font-family: 'goldsaber';
         }
+        img#batman-comp-mob {
+            position: absolute;
+            bottom: 0;
+            left: 46vw;
+            height: 50vw;
+        }
     }
 }
 .scroll-bg-2 {
-    height: 50vh;
+    position: relative;
+    height: 60vw;
     color: white;
-    background: dodgerblue;
+    background: #CC9A77;
+    
+    #what-do-header {
+        margin: 0;
+        text-align: center;
+        font-family: 'opensans_light';
+        position: absolute;
+        font-size: 12vw;
+        top: 23vw;
+        left: 20vw;
+    }
 }
 
-.fixed-bg-3 {
-  background-image: url("dark-room-logo.png");
-  min-height: 33%;
-  background-position: 0 -58vw;
+.skills-section-mob {
+    height: 287vw;
+    position: relative;
+    width: 100vw;
+    
+    .skills-wrapper {
+        position: absolute;
+        height: inherit;
+        
+        .skills-1 {
+            position: relative;
+            width: 100vw;
+            height: 88vw;
+            
+            img#skill-idea {
+                position: absolute;
+                height: 41vw;
+                left: 29vw;
+                top: 14vw;
+                opacity: 0.8;
+            }
+            div#light-1 {
+                position: absolute;
+                top: 70vw;
+                font-size: 6vw;
+                font-family: 'opensans_light';
+                text-transform: uppercase;
+                text-align: center;
+                width: 80vw;
+                left: 10vw;
+            }
+        }
+        .skills-2 {
+            position: relative;
+            height: 95vw;
+            width: 100vw;
+            
+            img#skill-build {
+                position: absolute;
+                height: 40vw;
+                left: 26vw;
+                top: 16vw;
+                opacity: 0.8;
+            }
+            div#light-2 {
+                position: absolute;
+                top: 67vw;
+                text-transform: uppercase;
+                font-size: 6vw;
+                font-family: 'opensans_light';
+                text-align: center;
+                width: 80vw;
+                left: 10vw;
+            }
+        }
+        .skills-3 {
+            position: relative;
+            height: 104vw;
+            width: 100vw;
+            
+            img#skill-complete {
+                position: absolute;
+                height: 54vw;
+                top: 8vw;
+                left: 20vw;
+                opacity: 0.8;
+            }
+            div#light-3 {
+                position: absolute;
+                top: 63vw;
+                text-align: center;
+                text-transform: lowercase;
+                line-height: 7vw;
+                font-family: 'opensans_light';
+                font-size: 6vw;
+                width: 80vw;
+                left: 10vw;
+            }
+        }
+    }
 }
 
-
-#slideout-nav {
-    position: absolute;
-    left: 90vw;
-    top: 5vw;
-    transform: rotate(90deg);
+.scroll-bg-3 {
+    position: relative;
+    height: 60vw;
+    color: white;
+    background: #CC9A77;
+    
+    #what-done-header {
+        position: absolute;
+        margin: 0;
+        top: 23vw;
+        left: 8vw;
+        font-size: 12vw;
+        font-family: 'opensans_light';
+    }
+}
+.works-section-mob {
+    position: relative;
+    height: 140vw;
+    width: 100vw;
+    
+    .works-wrapper-mob {
+        position: absolute;
+        height: inherit;
+        width: 100vw;
+        
+        #works-1 {
+            position: relative;
+            height: 87vw;
+            
+            #client-1-logo {
+                position: absolute;
+                height: 35vw;
+                left: 32vw;
+                top: 17vw;
+            }
+            #client-1-mob-p {
+                margin: 0;
+                position: absolute;
+                top: 62vw;
+                left: 10vw;
+                width: 80vw;
+                font-family: 'opensans_light';
+                font-size: 4vw;
+                text-align: center;
+            }
+        }
+        #works-2 {
+            position: relative;
+            height: 83vw;
+            
+            #client-2-logo {
+                position: absolute;
+                height: 38vw;
+                left: 12vw;
+                top: 8vw;
+            }
+            #client-2-mob-p {
+                position: absolute;
+                margin: 0;
+                width: 80vw;
+                top: 48vw;
+                left: 10vw;
+                text-align: center;
+                font-size: 4vw;
+                font-family: 'opensans_light';
+            }
+        }
+    }
 }
 
-#slide-nav-contents {
-    position: fixed;
-    top: 5vh;
-    left: 10%;
-    background: rgba(0,0,0,0.7);
-    height: 60vh;
-    width: 80vw;
-    z-index: 999;
-    border-radius: 1vw;
-    box-shadow: -1vw 1vw 4vw 0vw rgba(0,0,0,0.5);
-}
 
 
 
@@ -295,7 +451,6 @@
   25% { opacity:0; }
   100% { opacity:0; }
 }
-
 .animate-flicker-1 {
     animation: flickerAnimation 12s infinite;
 }
@@ -343,3 +498,4 @@
     animation: flickerAnimation 12s infinite;
     animation-delay: 10s;
 }
+

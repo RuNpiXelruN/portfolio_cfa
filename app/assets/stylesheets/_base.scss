@@ -2,6 +2,14 @@ html, body, #hoot-mobile {
     height: 100%;
 }
 
+#hoot-desktop {
+    display: block;
+}
+#hoot-mobile {
+    display: none;
+}
+
+
 @media screen and (min-width: 5px) and (orientation: portrait) {
     #hoot-desktop {
         display: none;
