@@ -139,17 +139,26 @@
 		    <a id="nav-button-wrapper"></a>
 		    <div id="nav-icon-wrapper"></div>
 		    
+		    <div id="mob-sprites-wrapper">
+    		    <div id="mob-social-sprites">
+    		        <p id="mob-fb-sprite"></p>
+    		        <p id="mob-twitter-sprite"></p>
+    		        <p id="mob-insta-sprite"></p>
+    		    </div>
+		    </div>
+		    
 		    <div id="slide-nav-contents">
 		        <ul id="nav-ul">
-		            <li id="nav-aboutme" class="nav-links">About Me</li>
-		            <li id="nav-works" class="nav-links">Works</li>
-		            <li id="nav-contact" class="nav-links">Contact</li>
+		            <a href="#mob-about"><li id="nav-aboutme" class="nav-links">About Me</li></a>
+		            <a href="#works-1"><li id="nav-works" class="nav-links">Works</li></a>
+		            <a href="#mob-contact"><li id="nav-contact" class="nav-links">Contact</li></a>
 		        </ul>
 		    </div>
-            <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
-            <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
+		    <img id="mob-hoot-logo" src="<%= asset_path('black white logo.png') %>">
+            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
             <h1 id="hero-text">web-dev / superhero</h1>    
-            <img id="batman-comp-mob" src="<%= asset_path('batman-computer.png') %>">
+            <img id="batman-comp-mob" src="<%= asset_path('batman-comp-shadow.png') %>">
 		</div> 
 	</div> 
 	<!-------------------------------------->
@@ -193,6 +202,14 @@
         <div id="dark-12-mob" class="animate-flicker-12">
             <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
         </div>
+	</div>
+	
+	<div id="mob-about" class="aboutme-mob">
+	    <img id="mob-profile-pic" src="<%= asset_path('jd-profile-train.png') %>">
+	    <h2 id="mob-who-i-am">I am..</h2>
+	    <p id="mob-about-body">A full-stack web developer that has a passion for good design, slick UI/UX, and writing clean maintainable code.</p>
+	    <p id="mob-about-body2">I enjoy being challenged and keeping in touch with emerging technologies.</p>
+	    <p id="mob-about-body3">I am a father to a beautiful boy and husband to an amazing wife :)</p>
 	</div>
 	
 	<div class="scrolling-bg scroll-bg-2">
@@ -276,5 +293,19 @@
 	        </div>
 	    </div>
 	</div>
+	
+	<div id="mob-contact" class="contact-section-mob">
+	    <h2 id="cta-mob">Like to know more?</h1>
+	    <h3 id="cta-mob-2">I'll be waiting...</h1>
+	    <img id="mob-batman-lounge" src="<%= asset_path('bat-lounge-with-shadow.png') %>">
+	    <a id="contact-mob" class="contact-btn-mob">Enquire</a>
+	    <div id="mob-form-div">
+	        <a id="mob-close-form-link"></a>
+	        <img id="mob-form-close-icon" src="<%= asset_path('form-close-icon.png') %>">
+	        <%= render 'contacts/form' %>
+	    </div>
+	</div>
+	
+	<footer><h5 id="footer-text">&copy;Hoot & Holla, 2016</h5></footer>
 	
 </div>
