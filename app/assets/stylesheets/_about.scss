@@ -24,32 +24,30 @@
         .dt-profile-p-wrapper {
             z-index: 2;
             position: absolute;
-            top: 18vh;
-            width: 45vw;
-            left: 50vw;
+            top: 20vh;
+            width: 39vw;
+            left: 54vw;
+            font-size: 2vw;
             
             #dt-about-body {
                 color: #333;
                 position: absolute;
                 font-family: 'opensans_light';
-                font-size: 2.5vw;
                 top: 0vw;
                 left: 0;
             }
             #dt-about-body2 {
                 color: #333;
                 font-family: 'opensans_light';
-                font-size: 2.5vw;
                 position: absolute;
-                top: 14vw;
+                top: 11vw;
                 left: 0;
             }
             #dt-about-body3 {
                 color: #333;
-                font-size: 2.5vw;
                 font-family: 'opensans_light';
                 position: absolute;
-                top: 24vw;
+                top: 19vw;
                 left: 0;
             }
         }

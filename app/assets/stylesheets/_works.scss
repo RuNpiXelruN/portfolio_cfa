@@ -3,17 +3,176 @@
     position: fixed;
     left: 0;
     top: -100vh;
-    width: 100vw;
+    width: 200vw;
     height: 100vh;
     
     .works-section {
         height: inherit;
         position: relative;
-        background: linear-gradient(to right, #304352, #d7d2cc);
-        border-bottom: 0.7vw solid black;
+        background: linear-gradient(-65deg, #D0C8BA 50%, #C3ABA3 50%);
         
         .works-body {
-            height: 100vh;
+            
+            #dt-what-do {
+                position: absolute;
+                margin: 0;
+                font-family: 'opensans_bold';
+                font-size: 3.5vw;
+                top: 5vw;
+                left: 42vw;
+            }
+            
+            .dt-process {
+                position: absolute;
+                height: 100vh;
+                width: 100vw;
+                left: 0;
+                
+                #dt-process-1 {
+                    position: absolute;
+                    height: inherit;
+                    width: 33.333vw;
+                    left: 0vw;
+                    
+                    #dt-process-1-img {
+                        position: absolute;
+                        width: 8vw;
+                        top: 13vw;
+                        left: 12vw;
+                        transition: transform 0.3s ease;
+                        
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                    #dt-process-1-details {
+                        position: absolute;
+                        top: 23vw;
+                        width: 70%;
+                        left: 15%;
+                        font-family: 'opensans_light';
+                        font-size: 1.5vw;
+                        text-align: center;
+                    }
+                }
+                #dt-process-2 {
+                    position: absolute;
+                    height: inherit;
+                    width: 33.33333vw;
+                    left: 33.33333vw;
+                    
+                    #dt-process-2-img {
+                        position: absolute;
+                        width: 8vw;
+                        top: 13vw;
+                        left: 12vw;
+                        transition: transform 0.3s ease;
+                        
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                    #dt-process-2-details {
+                        position: absolute;
+                        top: 23vw;
+                        width: 70%;
+                        left: 15%;
+                        font-family: 'opensans_light';
+                        font-size: 1.5vw;
+                        text-align: center;
+                    }
+                }
+                #dt-process-3 {
+                    position: absolute;
+                    height: inherit;
+                    width: 33.33333vw;
+                    left: 66.66667vw;
+                    
+                    #dt-process-3-img {
+                        position: absolute;
+                        width: 8vw;
+                        top: 13vw;
+                        left: 12vw;
+                        transition: transform 0.3s ease;
+                        
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                    #dt-process-3-details {
+                        position: absolute;
+                        top: 23vw;
+                        width: 70%;
+                        left: 15%;
+                        font-family: 'opensans_light';
+                        font-size: 1.5vw;
+                        text-align: center;
+                    }
+                }
+            }
+            
+            #dt-past-clients {
+                margin: 0;
+                position: absolute;
+                left: 150vw;
+                font-size: 3.5vw;
+                font-family: 'opensans_bold';
+                top: 5vw;
+            }
+            .work-examples {
+                position: absolute;
+                left: 100vw;
+                top: 0vw;
+                height: 39vw;
+                width: 100vw;
+                
+                #dt-works-1 {
+                    position: absolute;
+                    left: 20vw;
+                    top: 0vw;
+                    height: inherit;
+                    width: 40vw;
+                    
+                    #dt-client-1-logo {
+                        position: absolute;
+                        width: 11vw;
+                        left: 14vw;
+                        top: 11vw;
+                    }
+                    .dt-work-description-1 {
+                        position: absolute;
+                        font-size: 1.5vw;
+                        width: 80%;
+                        top: 24vw;
+                        font-family: 'opensans_light';
+                        left: 10%;
+                        text-align: center;
+                    }
+                }
+                #dt-works-2 {
+                    position: absolute;
+                    left: 60vw;
+                    top: 0vw;
+                    height: inherit;
+                    width: 40vw;
+                    
+                    #dt-client-2-logo {
+                        position: absolute;
+                        width: 13vw;
+                        left: 13vw;
+                        top: 13vw;
+                    }
+                    .dt-work-description-2 {
+                        position: absolute;
+                        font-size: 1.5vw;
+                        width: 80%;
+                        top: 24vw;
+                        font-family: 'opensans_light';
+                        left: 10%;
+                        text-align: center;
+                    }
+                }
+            }
         }
     }
 }
