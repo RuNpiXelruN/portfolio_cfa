@@ -2,14 +2,66 @@
 
 .about-wrapper {
     position: fixed;
-    width: 100%;
-    left: 100%;
+    width: 100vw;
+    left: 0;
+    top: 100vh;
+    z-index: 2;
 
     .about-hero-section {
-        background: linear-gradient(to right, #304352 , #d7d2cc);
+        background: #AFD2CB;
         background-size: 100% 100%;
         height: 100vh;
         position: relative;
+        
+        #dt-profile-pic {
+            position: absolute;
+            top: 19vh;
+            left: 11vw;
+            width: 22vw;
+            z-index: 0;
+        }
+        
+        .dt-profile-p-wrapper {
+            z-index: 2;
+            position: absolute;
+            top: 18vh;
+            width: 45vw;
+            left: 50vw;
+            
+            #dt-about-body {
+                color: #333;
+                position: absolute;
+                font-family: 'opensans_light';
+                font-size: 2.5vw;
+                top: 0vw;
+                left: 0;
+            }
+            #dt-about-body2 {
+                color: #333;
+                font-family: 'opensans_light';
+                font-size: 2.5vw;
+                position: absolute;
+                top: 14vw;
+                left: 0;
+            }
+            #dt-about-body3 {
+                color: #333;
+                font-size: 2.5vw;
+                font-family: 'opensans_light';
+                position: absolute;
+                top: 24vw;
+                left: 0;
+            }
+        }
+        #dt-about-light {
+            position: absolute;
+            left: 16vw;
+            height: 48vw;
+            top: -1vw;
+            z-index: 0;
+            transform-origin: top center;
+            transform: rotate(0deg);
+        }
         
         .navbar-bottom {
             background: black;
@@ -58,6 +110,7 @@
         }
         
         #batman-lounge {
+            display: none;
             position: absolute;
             height: 22vw;
             right: 6vw;
@@ -73,4 +126,14 @@
             opacity: 0.7;
         }
     }
+}
+
+@keyframes swingLight {
+    0% { transform: rotate(10deg); }
+    50% { transform: rotate(-15deg); }
+    100% { transform: rotate(10deg); }
+}
+
+.swing-light {
+    animation: swingLight 6s infinite ease-in-out;
 }

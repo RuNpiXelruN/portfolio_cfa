@@ -24,6 +24,18 @@ footer {
     }
 }
 
+.disable-click{
+    pointer-events: none;
+}
+
+.activated {
+    font-family: fantasy;
+}
+
+.room-fixed {
+    left: 0;
+}
+
 
 #alert-wrapper {
     position: relative;
@@ -33,18 +45,23 @@ footer {
     .alert {
         position: absolute !important;
         font-size: 4vw !important;
+        width: 81vw !important;
+        bottom: -41vw !important;
+        z-index: 9999 !important;
+        left: 0vw !important;
+        height: 19vw !important;
         font-family: 'opensans_bold' !important;
         color: #333333 !important;
         box-shadow: 1vw 1vw 3vw -1vw rgba(0,0,0,0.4) !important;
     }
 }
 .alert-dismissable .close, .alert-dismissible .close {
-    position: relative !important;
-    top: -1vw !important;
-    right: -4vw !important;
+    position: absolute !important;
+    top: 3vw !important;
+    right: 6vw !important;
     color: inherit !important;
     z-index: 9999 !important;
-    transform: scale(2) !important;
+    transform: scale(4) !important;
 }
 
 

@@ -1,31 +1,48 @@
 <div id="hoot-desktop">
+    
+    <div class="room-wrapper">
+        <div class="room-filler">
+            <img id="dt-door" src="<%= asset_path('door.png') %>">
+            <img id="dt-window" src="<%= asset_path('window.png') %>">
+            <img id="dt-floor" src="<%= asset_path('floor.png') %>">
+            <img id="dt-roof" src="<%= asset_path('roof blur.png') %>">
+            <img id="dt-skirting" src="<%= asset_path('floor skirting.png') %>">
+            <img id="dt-room-eye" src="<%= asset_path('batman-eye-room.png') %>">
+            
+        </div>
+    </div>
     <!-------------------- Home Page --------------------> 
     <div class="home-wrapper"  id="top">
         <div class="hero-section">
-            <img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">
-            <img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">
+            <img id="desktop-logo" src="<%= asset_path('black white logo.png') %>">
+            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
+            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
             <h1 id="hero-text">web-dev / superhero</h1>
-            <img id="batman-computer" src="<%= asset_path('batman-computer.png') %>">
+            <img id="batman-computer" src="<%= asset_path('batman-comp-shadow.png') %>">
             <img id="nav-right" src="<%= asset_path('arrow-blue.png') %>">
         </div>
     </div>
     <nav class="navbar-bottom">
         <ul class="nav-buttons">
-            <a class="nav-item-1" href="#"><li>About</li></a>
-            <a class="nav-item-2" href="#"><li>Contact</li></a>
-            <a class="nav-item-3" href="#"><li>Work</li></a>
-            <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
+            <a class="nav-item-1" id="dt-about" href="#"><li>About</li></a>
+            <a class="nav-item-2" id="nav-up" href="#"><li>Contact</li></a>
+            <a class="nav-item-3" id="dt-work" href="#"><li>Work</li></a>
+            <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
         </ul>
     </nav>
     
     <!-------------------- About Page --------------------> 
     <div class="about-wrapper">
         <div class="about-hero-section">
-            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
-            <!--<h1 id="hero-text">web-dev / superhero</h1>-->
+            <img id="dt-profile-pic" src="<%= asset_path('jd-profile-train.png') %>">
+            <img id="dt-about-light" class="swing-light" src="<%= asset_path('room-light-no-edge.png') %>">
             <img id="batman-lounge" src="<%= asset_path('Batman Lounge.png') %>">
-            <img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">
+            <div class="dt-profile-p-wrapper">
+                <p id="dt-about-body">A full-stack web developer that has a passion for good design, slick UI/UX, and writing clean maintainable code.</p>
+        	    <p id="dt-about-body2">I enjoy being challenged and keeping in touch with emerging technologies.</p>
+        	    <p id="dt-about-body3">I am a father to a beautiful boy and husband to an amazing wife :)</p>
+    	    </div>
+            <!--<img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">-->
         </div>
     </div>
     <!--<nav class="navbar-bottom">-->
@@ -51,27 +68,6 @@
                         </div>
                         <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">
                     </div>
-                    <!--<div id="work-example-2">-->
-                    <!--    <div class="work-overlay">-->
-                    <!--        <p class="work-company">Hoot & Holla</p>-->
-                    <!--        <p class="work-description">Full website build</p>-->
-                    <!--    </div>-->
-                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-                    <!--</div>-->
-                    <!--<div id="work-example-3">-->
-                    <!--    <div class="work-overlay">-->
-                    <!--        <p class="work-company">Hoot & Holla</p>-->
-                    <!--        <p class="work-description">Full website build</p>-->
-                    <!--    </div>-->
-                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-                    <!--</div>-->
-                    <!--<div id="work-example-4">-->
-                    <!--    <div class="work-overlay">-->
-                    <!--        <p class="work-company">Hoot & Holla</p>-->
-                    <!--        <p class="work-description">Full website build</p>-->
-                    <!--    </div>-->
-                    <!--    <img class="work-logos" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-                    <!--</div>-->
                 </div>
             </div>
         </div>
@@ -88,7 +84,7 @@
     <!-------------------- Contact Page -------------------->
     <div class="contact-wrapper">
         <div class="contact-section">
-            <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
+            <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
             <%= render 'contacts/form' %>
             <div id="dark-1">
                 <img id="eyes" src="<%= asset_path('batman-eyes.png') %>">
@@ -155,8 +151,6 @@
 		        </ul>
 		    </div>
 		    <img id="mob-hoot-logo" src="<%= asset_path('black white logo.png') %>">
-            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
             <h1 id="hero-text">web-dev / superhero</h1>    
             <img id="batman-comp-mob" src="<%= asset_path('batman-comp-shadow.png') %>">
 		</div> 
@@ -295,8 +289,8 @@
 	</div>
 	
 	<div id="mob-contact" class="contact-section-mob">
-	    <h2 id="cta-mob">Like to know more?</h1>
-	    <h3 id="cta-mob-2">I'll be waiting...</h1>
+	    <h2 id="cta-mob">Like to know more?</h2>
+	    <h3 id="cta-mob-2">I'll be waiting...</h3>
 	    <img id="mob-batman-lounge" src="<%= asset_path('bat-lounge-with-shadow.png') %>">
 	    <a id="contact-mob" class="contact-btn-mob">Enquire</a>
 	    <div id="mob-form-div">

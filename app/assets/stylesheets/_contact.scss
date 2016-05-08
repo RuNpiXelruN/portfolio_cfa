@@ -4,20 +4,15 @@
     top: 100%;
     width: 100%;
     height: 100vh;
-    z-index: 2;
+    z-index: 999;
     border-top: 0.3vw solid #767291;
     
     .contact-section {
         position: relative;
-        
+    
         #nav-down {
             position: absolute;
-            top: 24vw;
-            left: 47vw;
-        }
-        #nav-up {
-            position: absolute;
-            left: 47vw;
+            left: 50vw;
             top: 0vw;
             height: 6vw;
             transition: all 0.5s ease;

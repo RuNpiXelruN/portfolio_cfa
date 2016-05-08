@@ -1,0 +1,50 @@
+.room-wrapper {
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    background: grey;
+    left: 100vw;
+    
+    .room-filler {
+        position: relative;
+        height: inherit;
+        width: 100vw;
+        
+        #dt-door {
+            position: absolute;
+            height: 21vw;
+            left: 74vw;
+            bottom: 10vw;
+        }
+        #dt-window {
+            position: absolute;
+            height: 11vw;
+            bottom: 24vw;
+            left: 45vw;
+        }
+        #dt-floor {
+            position: absolute;
+            width: 100vw;
+            left: 0;
+            bottom: 0vw;
+        }
+        #dt-roof {
+            position: absolute;
+            width: 100vw;
+            top: 0vw;
+            left: 0;
+        }
+        #dt-skirting {
+            position: absolute;
+            width: 100vw;
+            left: 0;
+            bottom: 9.5vw;
+        }
+        #dt-room-eye {
+            position: absolute;
+            bottom: 26vw;
+            left: 51.5vw;
+            height: 0.8vw;
+        }
+    }
+}

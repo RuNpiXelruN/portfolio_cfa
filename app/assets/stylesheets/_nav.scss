@@ -6,7 +6,6 @@
     bottom: 0;
     z-index: 999;
     height: 6vw;
-    border-top: 0.3vw solid #767291;
     
     .nav-buttons {
         position: relative;
@@ -15,36 +14,39 @@
         .nav-item-1 {
             position: absolute;
             left: 8vw;
-            font-family: 'goldsaber';
+            font-family: 'opensans_bold';
+            text-transform: uppercase;
             font-size: 2vw;
             list-style-type: none;
             top: 1.3vw;
-            color: #6C6F8E;
+            color: white;
         }
         
         .nav-item-2 {
             position: absolute;
             left: 20vw;
-            font-family: 'goldsaber';
+            font-family: 'opensans_bold';
+            text-transform: uppercase;
             font-size: 2vw;
             list-style-type: none;
             top: 1.3vw;
-            color: #6C6F8E;
+            color: white;
         }
         
         .nav-item-3 {
             position: absolute;
             left: 35vw;
-            font-family: 'goldsaber';
+            font-family: 'opensans_bold';
+            text-transform: uppercase;
             font-size: 2vw;
             list-style-type: none;
             top: 1.3vw;
-            color: #6C6F8E;
+            color: white;
         }
         
-        #nav-down {
+        img#nav-up {
             position: absolute;
-            left: 47vw;
+            left: 50vw;
             transform: rotate(180deg);
             transition: all 0.5s ease;
             top: 0vw;
