@@ -5,7 +5,7 @@ $(document).ready(function(){
        },500);
        $("#dt-clients-wrapper").animate({
            marginLeft: '0vw'
-       });
+       },500);
     });
     
     $("#dt-arrow-left").click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function(){
        },500);
        $("#dt-clients-wrapper").animate({
            marginLeft: '100vw'
-       });
+       },500);
     });
     
     $(".nav-item-1").click(function(){

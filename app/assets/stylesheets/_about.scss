@@ -24,10 +24,26 @@
         .dt-profile-p-wrapper {
             z-index: 2;
             position: absolute;
-            top: 20vh;
+            top: 25vh;
             width: 39vw;
             left: 54vw;
-            font-size: 2vw;
+            font-size: 1.5vw;
+            
+            #dt-name-head {
+                position: absolute;
+                font-size: 2vw;
+                top: -8vh;
+                font-family: 'opensans_bold';
+                left: 0;
+            }
+            
+            #dt-name-name {
+                position: absolute;
+                font-family: 'opensans_light';
+                font-size: 2vw;
+                top: -8vh;
+                left: 8vw;
+            }
             
             #dt-about-body {
                 color: #333;
@@ -40,15 +56,29 @@
                 color: #333;
                 font-family: 'opensans_light';
                 position: absolute;
-                top: 11vw;
+                top: 6vw;
                 left: 0;
             }
             #dt-about-body3 {
                 color: #333;
                 font-family: 'opensans_light';
                 position: absolute;
-                top: 19vw;
+                top: 12vw;
                 left: 0;
+            }
+            img#dt-linkedin-about {
+                position: absolute;
+                height: 8vh;
+                left: 0;
+                bottom: -47vh;
+            }
+            a#dt-linkedin-link {
+                position: absolute;
+                font-family: 'opensans_light';
+                font-size: 1.5vw;
+                color: #333;
+                bottom: -44vh;
+                left: 7vw;
             }
         }
         #dt-about-light {
