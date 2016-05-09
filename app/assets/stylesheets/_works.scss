@@ -3,7 +3,7 @@
     position: fixed;
     left: 0;
     top: -100vh;
-    width: 200vw;
+    width: 300vw;
     height: 100vh;
     
     .works-section {
@@ -131,7 +131,6 @@
                     }
                 }
             }
-            
             #dt-clients-wrapper {
                 position: fixed;
                 height: 100vh;
@@ -143,7 +142,7 @@
                 #dt-past-clients {
                     margin: 0;
                     position: absolute;
-                    left: 150vw;
+                    left: 37vw;
                     font-size: 3.5vw;
                     font-family: 'opensans_bold';
                     top: 5vw;
@@ -162,6 +161,22 @@
                     }
                 }
                 
+                #dt-arrow-right-2 {
+                    z-index: 9999;
+                    position: absolute;
+                    right: 6vw;
+                    top: 4vw;
+                    height: 6vw;
+                }
+                
+                #dt-bat-lounge-clients {
+                    position: absolute;
+                    transform: rotateY(180deg);
+                    height: 18vw;
+                    bottom: 14vh;
+                    left: 5vw;
+                }
+                
                 .work-examples {
                     position: absolute;
                     left: 0;
@@ -171,50 +186,86 @@
                     
                     #dt-works-1 {
                         position: absolute;
-                        left: 20vw;
+                        left: 33.33333vw;
                         top: 0vw;
                         height: inherit;
-                        width: 40vw;
+                        width: 33.33333vw;
                         
                         #dt-client-1-logo {
                             position: absolute;
                             width: 11vw;
-                            left: 14vw;
+                            left: 11vw;
                             top: 11vw;
+                            transition: all 0.3s ease;
+                            
+                            &:hover {
+                                transform: scale(1.1);
+                            }
                         }
                         .dt-work-description-1 {
                             position: absolute;
                             font-size: 1.5vw;
-                            width: 80%;
+                            width: 70%;
                             top: 24vw;
                             font-family: 'opensans_light';
-                            left: 10%;
+                            left: 15%;
                             text-align: center;
                         }
                     }
                     #dt-works-2 {
                         position: absolute;
-                        left: 60vw;
+                        left: 66.66667vw;
                         top: 0vw;
                         height: inherit;
-                        width: 40vw;
+                        width: 33.33333vw;
                         
                         #dt-client-2-logo {
                             position: absolute;
                             width: 13vw;
-                            left: 13vw;
+                            left: 10vw;
                             top: 13vw;
+                            transition: all 0.3s ease;
+                            
+                            &:hover {
+                                transform: scale(1.1);
+                            }
                         }
                         .dt-work-description-2 {
                             position: absolute;
                             font-size: 1.5vw;
-                            width: 80%;
+                            width: 70%;
                             top: 24vw;
                             font-family: 'opensans_light';
-                            left: 10%;
+                            left: 15%;
                             text-align: center;
                         }
                     }
+                }
+            }
+            #dt-education-wrapper {
+                position: fixed;
+                height: 100vh;
+                width: 100vw;
+                left: 0;
+                margin-left: 200vw;
+                background: linear-gradient(-65deg, #D0C8BA 50%, #C3ABA3 50%);
+                
+                #dt-arrow-left-2 {
+                    z-index: 9999;
+                    position: absolute;
+                    top: 4vw;
+                    left: 6vw;
+                    height: 6vw;
+                    transform: rotate(180deg);
+                }
+                
+                #dt-education {
+                    position: absolute;
+                    font-family: 'opensans_bold';
+                    font-size: 3.5vw;
+                    top: 5vw;
+                    margin: 0;
+                    left: 38vw;
                 }
             }
         }
