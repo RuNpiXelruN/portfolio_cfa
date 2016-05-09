@@ -27,6 +27,7 @@
             <a class="nav-item-1" id="dt-about" href="#"><li>About</li></a>
             <a class="nav-item-2" id="nav-up" href="#"><li>Contact</li></a>
             <a class="nav-item-3" id="dt-work" href="#"><li>Work</li></a>
+            <img class="nav-item-home" id="dt-home" src="<%= asset_path('home.png') %>">
             <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
         </ul>
     </nav>
@@ -102,14 +103,29 @@
                     <h2 id="dt-education">Where I've been</h2>
                     <img id="dt-arrow-left-2" src="<%= asset_path('right-arrow.png') %>">
                     <div class="dt-education">
-                        <p class="dt-edu-headers">2016</p>
-                        <p class="dt-edu-headers">2015</p>
-                        <p class="dt-edu-headers">2014/15</p>
-                        <p class="dt-edu-headers">2002-2014</p>
-                        <p class="dt-edu-text"><a href="https://coderfactory.com/" target="_blank">Coder Factory</a></p>
-                        <p class="dt-edu-text">Freelance Web Development</p>
-                        <p class="dt-edu-text">JMC Academy - Film & TV production</p>
-                        <p class="dt-edu-text">Radiographer</p>
+                        <div id="edu-card-1">
+                            <img id="coderfactory-logo" src="<%= asset_path('coderfactory-logo.jpg') %>">
+                            <p id="edu-header-1" class="dt-edu-headers">2016</p>
+                            <p id="edu-text-1" class="dt-edu-text"><a href="https://coderfactory.com/" target="_blank">Coder Factory</br></a></p>
+                            <p id="edu-text-1-1">  - Diploma of Software Development</p>
+                            <p id="edu-text-1-2">Skills gained include HTML5, CSS3, Ruby, Ruby on Rails, AngularJS, NodeJS, Javascript, jQuery, Git, Heroku</p>
+                        </div>
+                        <div id="edu-card-2">
+                            <p id="edu-header-2" class="dt-edu-headers">2015</p>
+                            <p id="edu-text-2" class="dt-edu-text">Freelance Web Development</p>
+                            <p id="edu-text-2-1" class="dt-edu-text">Involved the complete build, design, and maintenance of Web Apps for multiple clients</p>
+                        </div>
+                        <div id="edu-card-3">
+                            <p id="edu-header-3" class="dt-edu-headers">2014/15</p>
+                            <p id="edu-text-3" class="dt-edu-text">JMC Academy - Film & TV production</p>
+                            <p id="edu-text-3-1" class="dt-edu-text">  - Diploma of Creative Arts (Film and Television production</p>
+                            <p id="edu-text-3-2" class="dt-edu-text">Skills gained include multi-cam studio operation and filming, live-broadcasting, sound and audio, lighting, advanced editing and animation</p>
+                        </div>
+                        <div id="edu-card-4">
+                            <p id="edu-header-4" class="dt-edu-headers">2002-2014</p>
+                            <p id="edu-text-4" class="dt-edu-text">Radiographer</p>
+                            <p id="edu-text-4-1" class="dt-edu-text">Many roles in large public hospitals and emergency departments. Lead trainer in CT and trauma imaging and CT consultant in complex cardiac scanning techniques and protocols</p>
+                        </div>
                     </div>
                 </div>
             </div>

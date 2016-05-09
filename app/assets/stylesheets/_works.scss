@@ -267,6 +267,155 @@
                     margin: 0;
                     left: 38vw;
                 }
+                .dt-education {
+                    position: absolute;
+                    height: 100vh;
+                    width: 100vw;
+                    left: 0;
+                    top: 0;
+                    
+                    .dt-edu-headers {
+                        position: absolute;
+                        font-family: 'opensans_bold';
+                        font-size: 2vw;
+                    }
+                    
+                    #edu-card-1 {
+                        height: 100vh;
+                        position: absolute;
+                        left: 0;
+                        top: 2vw;
+                        width: 25vw;
+                        
+                        #coderfactory-logo {
+                            position: absolute;
+                            height: 4vw;
+                            top: 14vw;
+                            left: 3vw;
+                        }
+                        #edu-header-1 {
+                            position: absolute;
+                            top: 12vw;
+                            left: 9vw;
+                        }
+                        #edu-text-1 {
+                            position: absolute;
+                            top: 15vw;
+                            left: 8vw;
+                            font-family: 'opensans_bold';
+                            font-size: 1.5vw;
+                            
+                            a {
+                                color: #567890;
+                            }
+                        }
+                        #edu-text-1-1 {
+                            position: absolute;
+                            top: 19vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                        #edu-text-1-2 {
+                            position: absolute;
+                            top: 22vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                    }
+                    #edu-card-2 {
+                        position: absolute;
+                        height: 100vh;
+                        width: 25vw;
+                        top: 2vw;
+                        left: 25vw;
+                        
+                        #edu-header-2 {
+                            top: 12vw;
+                            left: 9vw;
+                        }
+                        #edu-text-2 {
+                            position: absolute;
+                            top: 15vw;
+                            left: 2vw;
+                            font-family: 'opensans_bold';
+                            font-size: 1.5vw;
+                        }
+                        #edu-text-2-1 {
+                            position: absolute;
+                            top: 19vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                    }
+                    #edu-card-3 {
+                        position: absolute;
+                        height: 100vh;
+                        top: 2vw;
+                        width: 25vw;
+                        left: 50vw;
+                        
+                        #edu-header-3 {
+                            top: 12vw;
+                            left: 7.5vw;
+                        }
+                        #edu-text-3 {
+                            position: absolute;
+                            top: 15vw;
+                            left: 6.5vw;
+                            font-family: 'opensans_bold';
+                            font-size: 1.5vw;
+                        }
+                        #edu-text-3-1 {
+                            position: absolute;
+                            top: 19vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                        #edu-text-3-2 {
+                            position: absolute;
+                            top: 24vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                    }
+                    #edu-card-4 {
+                        position: absolute;
+                        height: 100vh;
+                        width: 25vw;
+                        top: 2vw;
+                        left: 75vw;
+                        
+                        #edu-header-4 {
+                            top: 12vw;
+                            left: 7.5vw;
+                        }
+                        #edu-text-4 {
+                            position: absolute;
+                            top: 15vw;
+                            left: 6.5vw;
+                            font-family: 'opensans_bold';
+                            font-size: 1.5vw;
+                        }
+                        #edu-text-4-1 {
+                            position: absolute;
+                            top: 19vw;
+                            font-family: 'opensans_light';
+                            font-size: 1.2vw;
+                            left: 5%;
+                            width: 90%;
+                        }
+                    }
+                }
             }
         }
     }

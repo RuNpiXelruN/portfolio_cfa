@@ -5,48 +5,55 @@
     left: 0;
     bottom: 0;
     z-index: 999;
-    height: 6vw;
+    height: 12vh;
     
     .nav-buttons {
         position: relative;
         padding: 0;
         
-        .nav-item-1 {
+        #dt-home {
             position: absolute;
-            left: 8vw;
-            font-family: 'opensans_bold';
-            text-transform: uppercase;
-            font-size: 2vw;
-            list-style-type: none;
-            top: 1.3vw;
-            color: white;
+            height: 4vw;
+            left: 10vw;
+            top: 2vh;
         }
         
-        .nav-item-2 {
+        .nav-item-1 {
             position: absolute;
             left: 20vw;
             font-family: 'opensans_bold';
             text-transform: uppercase;
             font-size: 2vw;
             list-style-type: none;
-            top: 1.3vw;
+            top: 3vh;
+            color: white;
+        }
+        
+        .nav-item-2 {
+            position: absolute;
+            left: 62vw;
+            font-family: 'opensans_bold';
+            text-transform: uppercase;
+            font-size: 2vw;
+            list-style-type: none;
+            top: 3vh;
             color: white;
         }
         
         .nav-item-3 {
             position: absolute;
-            left: 35vw;
+            left: 32vw;
             font-family: 'opensans_bold';
             text-transform: uppercase;
             font-size: 2vw;
             list-style-type: none;
-            top: 1.3vw;
+            top: 3vh;
             color: white;
         }
         
         img#nav-up {
             position: absolute;
-            left: 50vw;
+            left: 47vw;
             transform: rotate(180deg);
             transition: all 0.5s ease;
             top: 0vw;
