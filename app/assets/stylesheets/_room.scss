@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 1;
     height: 100vh;
-    background: grey;
+    background: #585454;
     left: 100vw;
     
     .room-filler {
@@ -10,9 +10,21 @@
         height: inherit;
         width: 100vw;
         
+        #dt-room-picframe {
+            position: absolute;
+            height: 16vw;
+            top: 13vw;
+            left: 57vw;
+        }
+        #dt-room-light {
+            position: absolute;
+            height: 36vw;
+            left: 28vw;
+            top: 0;
+        }
         #dt-door {
             position: absolute;
-            height: 21vw;
+            height: 25vw;
             left: 74vw;
             bottom: 10vw;
         }
@@ -20,7 +32,7 @@
             position: absolute;
             height: 11vw;
             bottom: 24vw;
-            left: 45vw;
+            left: 17vw;
         }
         #dt-floor {
             position: absolute;
@@ -43,7 +55,7 @@
         #dt-room-eye {
             position: absolute;
             bottom: 26vw;
-            left: 51.5vw;
+            left: 23.5vw;
             height: 0.8vw;
         }
     }
