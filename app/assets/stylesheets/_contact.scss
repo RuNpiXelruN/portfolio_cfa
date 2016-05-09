@@ -10,6 +10,42 @@
     .contact-section {
         position: relative;
     
+        #dt-contact-cta-1 {
+            position: absolute;
+            margin: 0;
+            top: 13vw;
+            color: white;
+            font-family: 'opensans_light';
+            font-size: 3vw;
+            left: 16vw;
+        }
+        
+        #dt-contact-linkedin {
+            position: absolute;
+            top: 19vw;
+            height: 6vw;
+            width: 6vw;
+            left: 22vw;
+            cursor: pointer;
+            
+            img {
+                height: 6vw;
+            }
+        }
+        
+        #dt-contact-github {
+            position: absolute;
+            top: 19vw;
+            height: 6vw;
+            width: 6vw;
+            left: 31vw;
+            cursor: pointer;
+            
+            img {
+                height: 6vw;
+            }
+        }
+        
         .name-pg {
             position: absolute;
             left: 65vw;
@@ -86,7 +122,7 @@
             font-family: 'opensans_light';
             font-size: 5vw;
             left: 20vw;
-            top: 11vw;
+            top: 6vw;
         }
         
         #dark-1, #dark-2, #dark-3, #dark-4, #dark-5, #dark-6, #dark-7, #dark-8, #dark-9, #dark-10, #dark-11, #dark-12  {
