@@ -13,166 +13,226 @@
         
         .works-body {
             
-            #dt-what-do {
-                position: absolute;
-                margin: 0;
-                font-family: 'opensans_bold';
-                font-size: 3.5vw;
-                top: 5vw;
-                left: 42vw;
+            #dt-process-wrapper {
+                position: fixed;
+                width: 100vw;
+                height: 100vh;
+                left: 0;
+                margin-left: 0vw;
+                background: linear-gradient(-65deg, #D0C8BA 50%, #C3ABA3 50%);
+            
+                #dt-what-do {
+                    position: absolute;
+                    margin: 0;
+                    font-family: 'opensans_bold';
+                    font-size: 3.5vw;
+                    top: 5vw;
+                    left: 42vw;
+                }
+                
+                #dt-arrow-right {
+                    position: absolute;
+                    right: 6vw;
+                    top: 4vw;
+                    height: 6vw;
+                    z-index: 9999;
+                    
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                
+                .dt-process {
+                    position: absolute;
+                    height: 100vh;
+                    width: 100vw;
+                    left: 0;
+                    
+                    #dt-process-1 {
+                        position: absolute;
+                        height: inherit;
+                        width: 33.333vw;
+                        left: 0vw;
+                        
+                        #dt-process-1-img {
+                            position: absolute;
+                            width: 8vw;
+                            top: 13vw;
+                            left: 12vw;
+                            transition: transform 0.3s ease;
+                            
+                            &:hover {
+                                transform: scale(1.2);
+                            }
+                        }
+                        #dt-process-1-details {
+                            position: absolute;
+                            top: 23vw;
+                            width: 70%;
+                            left: 15%;
+                            font-family: 'opensans_light';
+                            font-size: 1.5vw;
+                            text-align: center;
+                        }
+                    }
+                    #dt-process-2 {
+                        position: absolute;
+                        height: inherit;
+                        width: 33.33333vw;
+                        left: 33.33333vw;
+                        
+                        #dt-process-2-img {
+                            position: absolute;
+                            width: 8vw;
+                            top: 13vw;
+                            left: 12vw;
+                            transition: transform 0.3s ease;
+                            
+                            &:hover {
+                                transform: scale(1.2);
+                            }
+                        }
+                        #dt-process-2-details {
+                            position: absolute;
+                            top: 23vw;
+                            width: 70%;
+                            left: 15%;
+                            font-family: 'opensans_light';
+                            font-size: 1.5vw;
+                            text-align: center;
+                        }
+                    }
+                    #dt-process-3 {
+                        position: absolute;
+                        height: inherit;
+                        width: 33.33333vw;
+                        left: 66.66667vw;
+                        
+                        #dt-process-3-img {
+                            position: absolute;
+                            width: 8vw;
+                            top: 13vw;
+                            left: 12vw;
+                            transition: transform 0.3s ease;
+                            
+                            &:hover {
+                                transform: scale(1.2);
+                            }
+                        }
+                        #dt-process-3-details {
+                            position: absolute;
+                            top: 23vw;
+                            width: 70%;
+                            left: 15%;
+                            font-family: 'opensans_light';
+                            font-size: 1.5vw;
+                            text-align: center;
+                        }
+                    }
+                }
             }
             
-            .dt-process {
-                position: absolute;
+            #dt-clients-wrapper {
+                position: fixed;
                 height: 100vh;
                 width: 100vw;
                 left: 0;
-                
-                #dt-process-1 {
-                    position: absolute;
-                    height: inherit;
-                    width: 33.333vw;
-                    left: 0vw;
-                    
-                    #dt-process-1-img {
-                        position: absolute;
-                        width: 8vw;
-                        top: 13vw;
-                        left: 12vw;
-                        transition: transform 0.3s ease;
-                        
-                        &:hover {
-                            transform: scale(1.2);
-                        }
-                    }
-                    #dt-process-1-details {
-                        position: absolute;
-                        top: 23vw;
-                        width: 70%;
-                        left: 15%;
-                        font-family: 'opensans_light';
-                        font-size: 1.5vw;
-                        text-align: center;
-                    }
-                }
-                #dt-process-2 {
-                    position: absolute;
-                    height: inherit;
-                    width: 33.33333vw;
-                    left: 33.33333vw;
-                    
-                    #dt-process-2-img {
-                        position: absolute;
-                        width: 8vw;
-                        top: 13vw;
-                        left: 12vw;
-                        transition: transform 0.3s ease;
-                        
-                        &:hover {
-                            transform: scale(1.2);
-                        }
-                    }
-                    #dt-process-2-details {
-                        position: absolute;
-                        top: 23vw;
-                        width: 70%;
-                        left: 15%;
-                        font-family: 'opensans_light';
-                        font-size: 1.5vw;
-                        text-align: center;
-                    }
-                }
-                #dt-process-3 {
-                    position: absolute;
-                    height: inherit;
-                    width: 33.33333vw;
-                    left: 66.66667vw;
-                    
-                    #dt-process-3-img {
-                        position: absolute;
-                        width: 8vw;
-                        top: 13vw;
-                        left: 12vw;
-                        transition: transform 0.3s ease;
-                        
-                        &:hover {
-                            transform: scale(1.2);
-                        }
-                    }
-                    #dt-process-3-details {
-                        position: absolute;
-                        top: 23vw;
-                        width: 70%;
-                        left: 15%;
-                        font-family: 'opensans_light';
-                        font-size: 1.5vw;
-                        text-align: center;
-                    }
-                }
-            }
+                margin-left: 100vw;
+                background: linear-gradient(-65deg, #C3ABA3 50%, #D0C8BA 50%);
             
-            #dt-past-clients {
-                margin: 0;
-                position: absolute;
-                left: 150vw;
-                font-size: 3.5vw;
-                font-family: 'opensans_bold';
-                top: 5vw;
-            }
-            .work-examples {
-                position: absolute;
-                left: 100vw;
-                top: 0vw;
-                height: 39vw;
-                width: 100vw;
-                
-                #dt-works-1 {
+                #dt-past-clients {
+                    margin: 0;
                     position: absolute;
-                    left: 20vw;
-                    top: 0vw;
-                    height: inherit;
-                    width: 40vw;
+                    left: 150vw;
+                    font-size: 3.5vw;
+                    font-family: 'opensans_bold';
+                    top: 5vw;
+                }
+                
+                #dt-arrow-left {
+                    position: absolute;
+                    left: 6vw;
+                    top: 4vw;
+                    height: 6vw;
+                    z-index: 9999;
+                    transform: rotate(180deg);
                     
-                    #dt-client-1-logo {
-                        position: absolute;
-                        width: 11vw;
-                        left: 14vw;
-                        top: 11vw;
-                    }
-                    .dt-work-description-1 {
-                        position: absolute;
-                        font-size: 1.5vw;
-                        width: 80%;
-                        top: 24vw;
-                        font-family: 'opensans_light';
-                        left: 10%;
-                        text-align: center;
+                    &:hover {
+                        cursor: pointer;
                     }
                 }
-                #dt-works-2 {
+                
+                .work-examples {
                     position: absolute;
-                    left: 60vw;
+                    left: 0;
                     top: 0vw;
-                    height: inherit;
-                    width: 40vw;
+                    height: 100vh;
+                    width: 100vw;
                     
-                    #dt-client-2-logo {
+                    #dt-works-1 {
                         position: absolute;
-                        width: 13vw;
-                        left: 13vw;
-                        top: 13vw;
+                        left: 20vw;
+                        top: 0vw;
+                        height: inherit;
+                        width: 40vw;
+                        
+                        #dt-client-1-logo {
+                            position: absolute;
+                            width: 11vw;
+                            left: 14vw;
+                            top: 11vw;
+                        }
+                        .dt-work-description-1 {
+                            position: absolute;
+                            font-size: 1.5vw;
+                            width: 80%;
+                            top: 24vw;
+                            font-family: 'opensans_light';
+                            left: 10%;
+                            text-align: center;
+                        }
                     }
-                    .dt-work-description-2 {
+                    #dt-works-2 {
                         position: absolute;
-                        font-size: 1.5vw;
-                        width: 80%;
-                        top: 24vw;
-                        font-family: 'opensans_light';
-                        left: 10%;
-                        text-align: center;
+                        left: 60vw;
+                        top: 0vw;
+                        height: inherit;
+                        width: 40vw;
+                        
+                        #dt-client-2-logo {
+                            position: absolute;
+                            width: 13vw;
+                            left: 13vw;
+                            top: 13vw;
+                        }
+                        .dt-work-description-2 {
+                            position: absolute;
+                            font-size: 1.5vw;
+                            width: 80%;
+                            top: 24vw;
+                            font-family: 'opensans_light';
+                            left: 10%;
+                            text-align: center;
+                        }
                     }
                 }
             }
         }
     }
+}
+
+
+
+
+@keyframes arrowPulse {
+    0% { transform: scale(1); }
+    15% { transform: scale(1.1); }
+    30% { transform: scale(1); }
+    45% { transform: scale(1.1); }
+    60% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
+
+.arrow-pulse {
+    animation: arrowPulse 5s infinite ease-in-out;
 }
