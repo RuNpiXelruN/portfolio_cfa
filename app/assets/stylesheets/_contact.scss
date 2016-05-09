@@ -10,9 +10,67 @@
     .contact-section {
         position: relative;
     
+        .name-pg {
+            position: absolute;
+            left: 65vw;
+            top: 7vw;
+            transform: scale(1.5);
+            color: white;
+            
+            #contact_name {
+                background: black;
+                border: none;
+                border-bottom: 0.1vw solid #767291;
+                padding-left: 1vw;
+                width: 20vw;
+            }
+        }
+        .comment-pg {
+            position: absolute;
+            left: 60vw;
+            top: 11.2vw;
+            transform: scale(1.5);
+            color: white;
+            
+            #contact_comment {
+                background: black;
+                border: none;
+                border-bottom: 0.1vw solid #767291;
+                height: 4vw;
+                position: absolute;
+                top: -0.3vw;
+                color: white;
+                width: 20vw;
+                padding-left: 1vw;
+            }
+        }
+        .email-pg {
+            position: absolute;
+            left: 65vw;
+            top: 19vw;
+            transform: scale(1.5);
+            color: white;
+            
+            #contact_email {
+                background: black;
+                border: none;
+                border-bottom: 0.1vw solid #767291;
+                padding-left: 1vw;
+                width: 20vw;
+            }
+        }
+        .submit-button {
+            position: absolute;
+            top: 24vw;
+            left: 60vw;
+            width: 8vw;
+            height: 3vw;
+            background-color: dodgerblue;
+        }
+        
         #nav-down {
             position: absolute;
-            left: 50vw;
+            left: 47vw;
             top: 0vw;
             height: 6vw;
             transition: all 0.5s ease;
@@ -20,6 +78,15 @@
             &:hover {
                 transform: rotate(-540deg);
             }
+        }
+        #dt-contact-cta {
+            position: absolute;
+            margin: 0;
+            color: white;
+            font-family: 'opensans_light';
+            font-size: 5vw;
+            left: 20vw;
+            top: 11vw;
         }
         
         #dark-1, #dark-2, #dark-3, #dark-4, #dark-5, #dark-6, #dark-7, #dark-8, #dark-9, #dark-10, #dark-11, #dark-12  {

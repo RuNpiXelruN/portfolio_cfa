@@ -15,11 +15,8 @@
     <div class="home-wrapper on-home"  id="top">
         <div class="hero-section">
             <img id="desktop-logo" src="<%= asset_path('black white logo.png') %>">
-            <!--<img id="hoot-logo" src="<%= asset_path('hoothollalogonocross.png') %>">-->
-            <!--<img id="hoot-cross" src="<%= asset_path('hoot-cross.png')  %>">-->
             <h1 id="hero-text">web-dev / superhero</h1>
             <img id="batman-computer" src="<%= asset_path('batman-comp-shadow.png') %>">
-            <img id="nav-right" src="<%= asset_path('arrow-blue.png') %>">
         </div>
     </div>
     <nav class="navbar-bottom">
@@ -29,6 +26,9 @@
             <a class="nav-item-3" id="dt-work" href="#"><li>Work</li></a>
             <img class="nav-item-home" id="dt-home" src="<%= asset_path('home.png') %>">
             <img id="nav-up" src="<%= asset_path('arrow-blue.png') %>">
+            <p id="dt-fb-sprite"></p>
+	        <p id="dt-twitter-sprite"></p>
+	        <p id="dt-insta-sprite"></p>
         </ul>
     </nav>
     
@@ -50,13 +50,6 @@
             <!--<img id="nav-left" src="<%= asset_path('arrow-blue.png') %>">-->
         </div>
     </div>
-    <!--<nav class="navbar-bottom">-->
-    <!--    <ul class="nav-buttons">-->
-    <!--        <a class="nav-item" href="#"><li>Home</li></a>-->
-    <!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
-    <!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
-    <!--    </ul>-->
-    <!--</nav>-->
     
     
     <!-------------------- Works Page -------------------->
@@ -131,18 +124,12 @@
             </div>
         </div>
     </div>
-    <!--<nav class="navbar-bottom">-->
-    <!--    <ul class="nav-buttons">-->
-    <!--        <a class="nav-item" href="#"><li>Home</li></a>-->
-    <!--        <a class="nav-item" href="#"><li>Contact</li></a>-->
-    <!--        <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">-->
-    <!--    </ul>-->
-    <!--</nav>-->
     
     
     <!-------------------- Contact Page -------------------->
     <div class="contact-wrapper">
         <div class="contact-section">
+            <h3 id="dt-contact-cta">..say hi!</h3>
             <img id="nav-down" src="<%= asset_path('arrow-blue.png') %>">
             <%= render 'contacts/form' %>
             <div id="dark-1">

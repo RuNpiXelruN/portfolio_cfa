@@ -65,5 +65,51 @@
                 transform: rotate(720deg);
             }
         }
+        
+        #dt-fb-sprite {
+            background: url('Social Sprites.png');
+            margin: 0;
+            position: absolute;
+            left: 79vw;
+            height: 10vh;
+            width: 5vw;
+            top: 1vh;
+            background-size: 25vw;
+            background-position: -2.5vw -2.5vw;
+            
+            &:hover {
+                background-position: -2.5vw -9.3vw;
+            }
+        }
+        #dt-twitter-sprite {
+            background: url('Social Sprites.png');
+            margin: 0;
+            position: absolute;
+            left: 86vw;
+            height: 10vh;
+            width: 5vw;
+            top: 1vh;
+            background-size: 25vw;
+            background-position: -10.2vw -2.5vw;
+            
+            &:hover {
+                background-position: -10.2vw -9.3vw;
+            }
+        }
+        #dt-insta-sprite {
+            background: url('Social Sprites.png');
+            margin: 0;
+            position: absolute;
+            left: 93vw;
+            height: 10vh;
+            width: 5vw;
+            top: 1vh;
+            background-size: 25vw;
+            background-position: -17.5vw -2.5vw;
+            
+            &:hover {
+                background-position: -17.5vw -9.5vw;
+            }
+        }
     }
 }
