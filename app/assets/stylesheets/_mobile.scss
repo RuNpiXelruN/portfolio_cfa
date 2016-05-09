@@ -8,13 +8,13 @@
 }
 .fixed-bg-1 {
   background-image: url("black-bg.png");
-  min-height: 27%;
+  min-height: 33%;
   position: relative;
   z-index: -2;
 }
 .fixed-bg-2 {
     background-image: url("black-bg.png");
-    min-height: 27%;
+    min-height: 33%;
     position: relative;
     z-index: -2;
 }
@@ -764,7 +764,7 @@
   100% { opacity:0; }
 }
 .animate-flicker-1 {
-    animation: flickerAnimation 12s infinite;
+    animation: flickerAnimation 7s infinite;
 }
 .animate-flicker-2 {
     animation: flickerAnimation 12s infinite;
