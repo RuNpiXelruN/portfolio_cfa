@@ -7,6 +7,7 @@
     position: fixed;
     width: 100%;
     left: 0vw;
+    z-index: 999;
     background: black;
 
     .hero-section {
@@ -38,6 +39,14 @@
           bottom: 7vw;
         }
     }
+}
+
+.on-home {
+  // for querying if on home page only
+}
+
+.off-home {
+  // for querying if on home page only
 }
 #nav-right {
     position: absolute;
