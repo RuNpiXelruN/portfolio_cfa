@@ -30,6 +30,30 @@ All pages are to be minimalistic in nature.
 
 **Logo**
 
+![alt text](https://cloud.githubusercontent.com/assets/13185159/15114153/e526c158-163b-11e6-8010-4f28f3f735bb.png)
+
+White and Black.
+
+**Site colors**
+
+| #777777                                              | #AFD2CB                                          | #CC9A77                                          |#C3ABA3                                          |#D0C8BA                                          |
+|                                        ------------- |:------------------------------------------------:|:------------------------------------------------:|:-----------------------------------------------:|------------------------------------------------:|
+| ![alt text](http://www.colorhexa.com/777777.png)     | ![alt text](http://www.colorhexa.com/afd2cb.png) | ![alt text](http://www.colorhexa.com/cc9a77.png) |![alt text](http://www.colorhexa.com/c3aba3.png) |![alt text](http://www.colorhexa.com/d0c8ba.png) |
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 
 
  
