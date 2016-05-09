@@ -1,6 +1,4 @@
 
-# To do - favicons, work descriptions, cross browser
-
 # Portfolio of Justin Davidson
 
 ## Coder Factory Academy - Project 1
@@ -53,9 +51,9 @@ Open sans light
 
 
 
+###Wireframe###
 
-
-
+![alt text](https://cloud.githubusercontent.com/assets/13185159/15130350/060f584a-168b-11e6-963d-f15e75990754.png)
  
 
 
