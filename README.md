@@ -28,7 +28,7 @@ It would have been relatively easy for me to create a 'one page scroll' website 
 
 All pages are to be minimalistic in nature.
 
-**Logo**
+**Logo** is `Hoot+Holla`
 
 ![alt text](https://cloud.githubusercontent.com/assets/13185159/15114153/e526c158-163b-11e6-8010-4f28f3f735bb.png)
 
@@ -41,8 +41,15 @@ White and Black.
 | ![alt text](http://www.colorhexa.com/777777.png)     | ![alt text](http://www.colorhexa.com/afd2cb.png) | ![alt text](http://www.colorhexa.com/cc9a77.png) |![alt text](http://www.colorhexa.com/c3aba3.png) |![alt text](http://www.colorhexa.com/d0c8ba.png) |
 
 
+**Fonts**
 
+Open sans bold
 
+![alt text](https://cloud.githubusercontent.com/assets/13185159/15114845/467b2162-163f-11e6-84d7-53a563ac1517.png)
+
+Open sans light
+
+![alt text](https://cloud.githubusercontent.com/assets/13185159/15114856/490cec3a-163f-11e6-8ea3-ecd344f14f6b.png)
 
 
 
